@@ -7,13 +7,20 @@
 }
 
 .section-2-text-1 {
-  font-size: 30px;
+  color: black;
+  font-size: 40px;
   font-weight: 400;
-  width: 350px;
+  width: 450px;
   display: flex;
   position: relative;
   align-items: center;
   justify-content: center;
   vertical-align: top;
+  margin-top: 70px;
+  margin-bottom: 30px;
 }
 
+.section-2-text-2 {
+  width: 750px;
+  font-size: 20px;
+}
