@@ -1,5 +1,5 @@
 .section-2 {
-  background-color: aqua;
+  background-color: #0C001E;
   height: 1000px;
   display: flex;
   flex-direction: column;
@@ -7,7 +7,7 @@
 }
 
 .section-2-text-1 {
-  color: black;
+  color: white;
   font-size: 40px;
   font-weight: 400;
   width: 450px;
@@ -21,6 +21,81 @@
 }
 
 .section-2-text-2 {
+  color: white;
   width: 750px;
   font-size: 20px;
+}
+
+.grid {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 50px;
+}
+
+.step-1,
+.step-2,
+.step-3 {
+  color: white;
+  background-color: #0c00b869;
+  margin-top: 40px;
+  width: 480px;
+  height: 500px;
+  cursor: pointer;
+  align-items: center;
+  border: none;
+  border-radius: 20px;
+  box-shadow: rgb;
+  box-shadow: 7px 7px 5px rgba(0, 0, 0, 0.25);
+}
+
+.step-1:hover,
+.step-2:hover,
+.step-3:hover {
+  transform: translateY(-15px);
+}
+
+.step-1 img,
+.step-2 img,
+.step-3 img{
+  margin-top: 10px;
+  margin-bottom: 30px;
+  margin-left: 15px;
+  height: 300px;
+  width: 450px;
+  border-radius: 10px;
+}
+
+#first-text {
+  font-size: 30px;
+  width: 450px;
+  margin-left: 20px;
+}
+
+#second-text {
+  margin-left: 20px;
+  width: 400px;
+}
+
+.learn-button,
+.start-button {
+  height: 45px;
+  width: 120px;
+  border: none;
+  border-radius: 4px;
+  font-size: 20px;
+  margin-top: 50px;
+  cursor: pointer;
+  transition: background-color 0.15s
+    color 0.15s;
+}
+
+.learn-button {
+  margin-right: 40px;
+}
+
+.learn-button:hover,
+.start-button:hover {
+  background-color: rgb(6, 95, 212);
+  color: white;
 }
