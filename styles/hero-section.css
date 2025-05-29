@@ -1,0 +1,60 @@
+.hero-section {
+  background-image: url(../assets/home.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  margin-top: 50px;
+  height: 900px;
+  width: 100%;
+}
+
+.hero-main-text {
+  left: 10px;
+  top: 350px;
+  color: white;
+  font-weight: 600;
+  font-size: 4rem;
+  position: absolute;
+  width: 700px;
+  z-index: 1px;
+}
+
+.hero-second-text {
+  color: white;
+  font-size: 32px;
+  position: absolute;
+  width: 700px;
+  top: 650px;
+  left: 20px;
+}
+
+.try-button,
+.demo-button{
+  height: 45px;
+  width: 120px;
+  font-size: 20px;
+  border-radius: 4px;
+  border: none;
+  position: absolute;
+  top: 900px;
+}
+
+.try-button {
+  left: 20px;
+}
+
+.demo-button {
+  left: 170px;
+  background-color: rgba(133, 133, 133, 0.5);
+  color: white;
+  z-index: 1;
+}
+
+.try-button:hover {
+  transform: translateY(-5px);
+}
+
+.demo-button:hover {
+  transform: translateY(-5px);
+}

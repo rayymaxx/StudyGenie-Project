@@ -1,0 +1,62 @@
+.nav-bar {
+  background-color: #0C001E;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  border: none;
+  z-index: 1000;
+}
+
+.nav-centre {
+  display: flex;
+  gap: 20px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  margin: 10px;
+  align-items: center;
+}
+img {
+  height: 54px;
+}
+
+.sign-up-button,
+.log-in-button{
+  background-color: white;
+  color: black;
+  height: 30px;
+  width: 70px;
+  position: absolute;
+  right: 120px;
+  bottom: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.15s
+    color 0.15s;
+}
+
+.sign-up-button:hover ,
+.log-in-button:hover {
+  background-color: rgb(6, 95, 212);
+  color: white;
+}
+
+.log-in-button {
+  right: 20px;
+}  
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
