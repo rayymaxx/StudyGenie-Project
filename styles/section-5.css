@@ -1,0 +1,78 @@
+.feedback-section {
+  background-color: #005966;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#section-5-text-1 {
+  color: white;
+  position: absolute;
+  margin-top: 80px;
+  left: 30px;
+  size: 600;
+  font-size: 3rem;
+}
+
+#section-5-text-2 {
+  color: white;
+  position: absolute;
+  left: 30px;
+  margin-top: 170px;
+  font-size: 400;
+}
+
+.feedback-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  align-items: center;
+}
+
+span {
+  position: absolute;
+  left: 70px;
+  margin-top: 230px;
+}
+
+.feedback-1 {
+  color: white;
+  position: absolute;
+  display: grid;
+}
+
+.feedback-2 {
+  color: white;
+  display: grid;
+}
+
+#alex-feedback,
+#maria-feedback {
+  position: absolute;
+  margin-top: 300px;
+  left: 70px;
+  width: 400px;
+  font-size: 20px;
+}
+
+#alex-name,
+#maria-name {
+  position: absolute;
+  margin-top: 440px;
+  left: 70px;
+  width: 300px;
+}
+
+#alex-position,
+#maria-position {
+  position: absolute;
+  margin-top: 460px;
+  left: 70px;
+  width: 300px;
+}
