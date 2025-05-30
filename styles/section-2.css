@@ -37,7 +37,7 @@
 .step-2,
 .step-3 {
   color: white;
-  background-color: #0c00b869;
+  background-color: #090016;
   margin-top: 40px;
   width: 480px;
   height: 500px;
@@ -45,8 +45,7 @@
   align-items: center;
   border: none;
   border-radius: 20px;
-  box-shadow: rgb;
-  box-shadow: 7px 7px 5px rgba(0, 0, 0, 0.25);
+  box-shadow: 7px 7px 5px rgba(212, 212, 212, 0.25);
 }
 
 .step-1:hover,
