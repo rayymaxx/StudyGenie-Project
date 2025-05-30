@@ -1,0 +1,41 @@
+.section-4 {
+  background-color: #0C001E;
+  height: 900px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10pxpx;
+  right: 0;
+}
+
+.section-4-left {
+  color: white;
+  margin-left: 100px;
+}
+
+#section-4-text-1 {
+  font-weight: 600;
+  font-size: 3rem;
+  width: 560px;
+}
+
+#section-4-text-2 {
+  width: 600px;
+}
+
+.section-4-right{
+  width: 600px;
+  display: flex;
+  position: absolute;
+  right: 100px;
+}
+
+.section-4-right img {
+  position: relative;
+  width: 650px;
+  height: 750px;
+  border-radius: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  vertical-align: top;
+}
