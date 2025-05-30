@@ -23,7 +23,32 @@ a {
   text-decoration: none;
   margin: 10px;
   align-items: center;
+  cursor: pointer;
+  position: relative;
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
 }
+
+a::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  left: 0;
+  bottom: -4px;
+  background-color: currentColor;
+  transition: width 0.3s ease;
+}
+
+a:hover {
+  color: #00ffee;
+}
+
+a:hover::after {
+  width: 100%;
+}
+
 img {
   height: 54px;
 }

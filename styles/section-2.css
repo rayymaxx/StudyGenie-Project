@@ -1,4 +1,4 @@
-.section-2 {
+#section-2 {
   background-color: #0C001E;
   height: 1000px;
   display: flex;
@@ -10,7 +10,7 @@
   color: white;
   font-size: 40px;
   font-weight: 400;
-  width: 450px;
+  width: 600px;
   display: flex;
   position: relative;
   align-items: center;
@@ -22,7 +22,7 @@
 
 .section-2-text-2 {
   color: white;
-  width: 750px;
+  width: 900px;
   font-size: 20px;
 }
 
