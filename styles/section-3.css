@@ -1,0 +1,103 @@
+.section-3 {
+  background-color: #005966;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-3-text-1 {
+  position: relative;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  vertical-align: top;
+  color: white;
+  font-weight: 600;
+  font-size: 32px;
+  width: 500px;
+  margin-top: 80px;
+}
+
+.section-3-grid {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 50px;
+}
+
+.section-3-step-1,
+.section-3-step-2,
+.section-3-step-3 {
+  color: white;
+  background-color: #003e47;
+  margin-top: 40px;
+  width: 480px;
+  height: 300px;
+  cursor: pointer;
+  align-items: center;
+  border: none;
+  border-radius: 20px;
+  box-shadow: rgb;
+  box-shadow: 7px 7px 5px rgba(0, 0, 0, 0.25);
+}
+
+.section-3-step-1:hover,
+.section-3-step-2:hover,
+.section-3-step-3:hover {
+  transform: translateY(-15px);
+}
+
+
+#section-3-first-text {
+  font-size: 30px;
+  width: 450px;
+  margin-top: 35px;
+  margin-left: 40px;
+  margin-bottom: 20px;
+}
+
+#section-3-second-text {
+  margin-left: 40px;
+  width: 400px;
+}
+
+.section-3-buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.section-3-learn-button,
+.section-3-try-button,
+.section-3-set-button {
+  height: 45px;
+  width: 120px;
+  border-radius: 7px;
+  border: none;
+  transition: background-color 0.50s
+    color 0.50s;
+  cursor: pointer;
+}
+
+.section-3-learn-button:hover,
+.section-3-try-button:hover,
+.section-3-set-button:hover {
+  background-color: rgb(6, 95, 212);
+  color: white;
+}
+
+.section-3-learn-button {
+  position: absolute;
+  left: 210px;
+}
+
+.section-3-set-button {
+  position: absolute;
+  right: 200px;
+}
+
+.section-3-try-button {
+  position: absolute;
+  left: 47%;
+}
